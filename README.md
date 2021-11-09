@@ -18,6 +18,11 @@ docker build -t api --target RUN .
 docker run api
 ```
 
+If you would like to pull from docker hub, you can use the following image.
+```
+royaldog/absolute-control-fastapi:tagname
+```
+
 ## Testing
 
 To test the library you can use the `./run_tests.py` script. It is highly recommended to use the docker image. These tests could shut down your system and cause harm.
